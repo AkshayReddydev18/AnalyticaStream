@@ -1,4 +1,4 @@
-# OLTP to OLAP Data Pipeline Project
+## An OLTP to OLAP ETL Data Pipeline
 
 ## Overview
  Developed an automated ETL pipeline in Python to extract transactional data from a MySQL OLTP database, transform it into dimensional models (fact and dimension tables), and load it into an OLAP data warehouse for analytics and reporting.

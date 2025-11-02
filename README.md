@@ -1,14 +1,7 @@
 # OLTP to OLAP Data Pipeline Project
 
 ## Overview
-
-This project designs and implements a star-schema OLAP (Online Analytical Processing) model to transform data from an OLTP (Online Transactional Processing) system. It includes an ETL (Extract, Transform, Load) pipeline that ingests, transforms, and loads OLTP data into OLAP tables, enabling efficient analytical reporting and insights.
-
-
-InsightFlow: An OLTP to OLAP ETL Data Pipeline
-
-
-Description: Developed an automated ETL pipeline in Python to extract transactional data from a MySQL OLTP database, transform it into dimensional models (fact and dimension tables), and load it into an OLAP data warehouse for analytics and reporting.
+ Developed an automated ETL pipeline in Python to extract transactional data from a MySQL OLTP database, transform it into dimensional models (fact and dimension tables), and load it into an OLAP data warehouse for analytics and reporting.
 
 ## Features
 

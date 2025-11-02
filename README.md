@@ -4,6 +4,12 @@
 
 This project designs and implements a star-schema OLAP (Online Analytical Processing) model to transform data from an OLTP (Online Transactional Processing) system. It includes an ETL (Extract, Transform, Load) pipeline that ingests, transforms, and loads OLTP data into OLAP tables, enabling efficient analytical reporting and insights.
 
+
+InsightFlow: An OLTP to OLAP ETL Data Pipeline
+
+
+Description: Developed an automated ETL pipeline in Python to extract transactional data from a MySQL OLTP database, transform it into dimensional models (fact and dimension tables), and load it into an OLAP data warehouse for analytics and reporting.
+
 ## Features
 
 - **Star-Schema Design**: A robust OLAP model with fact and dimension tables optimized for analytical queries.
@@ -30,7 +36,7 @@ The ETL pipeline (`src/etl_pipeline.py`) performs the following steps:
   - Merges `orders`, `order_items`, `returns`, and `payments` into a fact table for the OLAP schema.
 
 - **Load**:
-  - Loads transformed data into the OLAP database (`Team3`) with the following structure:
+  - Loads transformed data into the OLAP database (`AnalyticalStream`) with the following structure:
     - `dim_customers`: Customer dimension table (e.g., customer ID, name, email, phone, city).
     - `dim_products`: Product dimension table (e.g., product ID, name, category, prices).
     - `order_fact`: Fact table combining order, item, return, and payment details (e.g., order ID, customer ID, product ID, order value, refund amount).

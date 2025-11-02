@@ -35,7 +35,7 @@ select * from shipments;
 
 
 
-use Team3;
+use AnalyticsDB;
 
 create table dim_customers (
     customer_id BIGINT PRIMARY KEY,
